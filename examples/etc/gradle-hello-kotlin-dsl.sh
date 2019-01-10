@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DIR=`dirname $0`
+DIR=`cd $DIR; pwd`
+
+PROJECT=gradle-hello-kotlin-dsl
+
+PROJECT_HOME=$DIR/../$PROJECT
+
+echo "creating project $PROJECT at $PROJECT_HOME ..."
+mkdir -p $PROJECT_HOME
+cd $PROJECT_HOME
+
+gradle init --dsl kotlin --package hello.dsl --project-name $PROJECT --test-framework kotlintest --type kotlin-application 
+cd  .. && unzip -o $DIR/dsl/$PROJECT.zip
+

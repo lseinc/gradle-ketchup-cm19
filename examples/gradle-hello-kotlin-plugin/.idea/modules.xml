@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gradle-hello-kotlin-plugin.iml" filepath="$PROJECT_DIR$/gradle-hello-kotlin-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-hello-kotlin-plugin.test.iml" />
+    </modules>
+  </component>
+</project>
