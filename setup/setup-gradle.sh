@@ -5,11 +5,11 @@
 DIR=`dirname $0`
 DIR=`cd $DIR; pwd`
 
+TMP=$DIR/../tmp
+mkdir -p $TMP
 TMP=`cd $DIR/../tmp; pwd`
 
-mkdir -p $TMP
-
-export GRADLE_VERSION=5.1
+export GRADLE_VERSION=5.1.1
 export GRADLE_BINARY=gradle-${GRADLE_VERSION}-all.zip
 export MAVEN_VERSION=3.6.0
 export MAVEN_BINARY=apache-maven-${MAVEN_VERSION}-bin.zip

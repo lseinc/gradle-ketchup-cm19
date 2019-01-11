@@ -1,4 +1,4 @@
-## Install Gradle 5.1
+## Install Gradle 5.1.1
 - Requires JDK 8 or higher
  - [https://jdk.java.net/11](https://jdk.java.net/11)
  - [https://www.oracle.com/technetwork/java/javase/downloads/index.html](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -7,7 +7,7 @@
  - [https://gradle.org/install](https://gradle.org/install)
   - `brew install gradle`  # or other installer
   - manually
-    - `curl https://services.gradle.org/distributions/gradle-5.1-all.zip`
+    - `curl https://services.gradle.org/distributions/gradle-5.1.1-all.zip`
     - if needed, extract zip or tar.gz appropriately
     - add Gradle bin directory to global PATH
  - verify gradle 
